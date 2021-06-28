@@ -1,0 +1,62 @@
+.Box1{
+    display: flex;
+    // background-color: rgb(255, 0, 0);
+    
+    width: 80vw;
+    h1{
+        color: rgb(49, 49, 49);
+        display: inline-block;
+    }
+    h4{
+        color: gray;
+        display: inline-block;
+    }
+    p{
+        padding-top: 15px;
+        font-size: 13px;
+        display: inline-block;
+    }
+    li{
+        padding-top: 10px;
+        font-size: 13px;
+        img{
+            padding-left: 8px;
+        }
+    }
+}
+.List{
+    list-style: none;
+    padding-inline-start: 20px;
+    float: right;
+    direction: rtl;
+           
+}
+.Box1c{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    float: right;
+    clear: right;
+    
+    
+}
+.Box1a{
+    display: grid;
+    height: 150px;
+    width: 300px;
+    float: left;
+    clear: left;
+    
+}
+.Box1b{
+    width: 54vw;
+    margin: 0px 10px 0px 10px;
+    display: grid;
+    place-items: center;
+    
+    img{
+        border-radius: 50%;
+        border: solid rgb(97, 94, 94) ;
+    }
+    
+}

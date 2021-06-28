@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.Box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw;
+}
+
+.Box1 h1 {
+  color: #313131;
+  display: inline-block;
+}
+
+.Box1 h4 {
+  color: gray;
+  display: inline-block;
+}
+
+.Box1 p {
+  padding-top: 15px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.Box1 li {
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.Box1 li img {
+  padding-left: 8px;
+}
+
+.List {
+  list-style: none;
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+  float: right;
+  direction: rtl;
+}
+
+.Box1c {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  float: right;
+  clear: right;
+}
+
+.Box1a {
+  display: -ms-grid;
+  display: grid;
+  height: 150px;
+  width: 300px;
+  float: left;
+  clear: left;
+}
+
+.Box1b {
+  width: 54vw;
+  margin: 0px 10px 0px 10px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.Box1b img {
+  border-radius: 50%;
+  border: solid #615e5e;
+}
+
+.Box2 {
+  width: 40vw;
+  height: 950px;
+  display: inline-block;
+  float: right;
+}
+
+.Box2 .Button1 {
+  background-color: gray;
+  color: white;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+}
+
+.Box2 .heading {
+  list-style: inside decimal;
+  padding-top: 12px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.Box2 .Content {
+  display: inline-block;
+  list-style: none;
+  padding-top: 5px;
+  padding-left: 18px;
+  font-size: 12px;
+}
+
+.Box2 .dess {
+  display: inline-block;
+}
+
+.Box2 .ch {
+  padding-top: 15px;
+  font-size: 13px;
+}
+
+.Box2 .cc {
+  color: gray;
+  font-size: 11px;
+}
+
+.Box2 .le {
+  display: inline-block;
+  padding-top: 15px;
+}
+
+.Box2 .le .lc {
+  color: #525252;
+  font-size: 10px;
+}
+
+.Box2 .lh {
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.Box2 .lh .lc {
+  color: #525252;
+  font-size: 10px;
+}
+
+.Box2 .skills {
+  display: inline-block;
+  border: solid #9b9b9b;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+
+.Box3 {
+  height: 950px;
+  width: 40vw;
+  float: left;
+  clear: left;
+}
+
+.Box3 .eb {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.Box3 .Box3a {
+  width: 35vw;
+  height: 950px;
+}
+
+.Box3 .in {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.Box3 .time {
+  display: inline-block;
+  color: gray;
+  font-size: 14px;
+}
+
+.Box3 .marks {
+  display: inline-block;
+  color: gray;
+  font-size: 14px;
+  float: right;
+}
+
+.Box3 .details {
+  color: gray;
+  font-size: 13px;
+}
+
+.Box3 .at {
+  font-size: 14px;
+}
+
+.Box3 .oi {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Box1 {
+    display: inline-block;
+  }
+  .Box1 .Box1a {
+    width: 30vw;
+    display: -ms-grid;
+    display: grid;
+    float: left;
+    clear: left;
+  }
+  .Box1 .Box1b {
+    width: 30vw;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    float: right;
+  }
+  .Box1 .Box1c {
+    padding-top: 50px;
+    width: 70vw;
+    float: left;
+  }
+  .Box1 .Box1c .List {
+    list-style: none;
+    direction: ltr;
+  }
+  .Box1 .Box1c li {
+    display: inline-block;
+    border: solid #7b7979;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    -webkit-padding-end: 8px;
+            padding-inline-end: 8px;
+    margin: 5px;
+  }
+  .Box3 {
+    width: 80vw;
+    display: inline-block;
+  }
+  .Box3 .Box3a {
+    width: 80vw;
+    display: inline-block;
+  }
+  .Box2 {
+    width: 80vw;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+    clear: left;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e9e8e8;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.mh {
+  -webkit-text-decoration: underline overline #4e4e4e;
+          text-decoration: underline overline #4e4e4e;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.Box {
+  margin-top: 10px;
+  padding: 25px;
+  height: vh;
+  width: 80vw;
+  background-color: white;
+  display: inline-block;
+  -webkit-box-shadow: slategray 0px 0px 15px;
+          box-shadow: slategray 0px 0px 15px;
+}
+/*# sourceMappingURL=style.css.map */
